@@ -1,3 +1,4 @@
+#Axel Velasco Chavez (Axel Meyrek) 2025
 #Diego García Ricaño 2022
 #Hand gestures and movement for drone control.
 # Importing necessary libraries
@@ -186,9 +187,8 @@ def StartDrone(me):
     if debug == 0:
         # Set the flying flag to indicate drone is in flying mode
         flying = 1
-        
         # Initialize the drone's camera
-        time.sleep(3)
+        time.sleep(1)
 
     # Start hand detection
     detectHands()
